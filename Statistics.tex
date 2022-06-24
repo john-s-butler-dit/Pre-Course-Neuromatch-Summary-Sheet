@@ -14,13 +14,11 @@ Stochastic models can be used to create models of behaviour. As an example, imag
 A simple way to model random behaviour is with a single \textbf{Bernoulli trial}, that has two outcomes, {$Left, Right$}, with probability $P(Left)=p$ and $P(Right)=1-p$ as the two mutually exclusive possibilities (whether the rat goes down the left or right arm of the maze).
 
 \textbf{The binomial distribution} simulates $n$ number of binary events, such as the $Left, Right$ choices of the random rat in the T-maze is given by:
-\begin{align}
-P(k|n,p) &= \left( \begin{array} \\n \\ k\end{array} \right) p^k (1-p)^{n-k} \\
-\binom{n}{k} &= {\frac {n!}{k!(n-k)!}}
-\end{align}
-
+\begin{eqnarray*}
+P(k | n,p) &= &\left( \begin{pmatrix} n \\ k\end{pmatrix} \right) p^k (1-p)^{n-k} \\
+\binom{n}{k} &=& {\frac {n!}{k!(n-k)!}}
+\end{eqnarray*}
 where, $p$ is the probability of turning left, $n$ is the number of binary events, or trials, and $k$ is the number of times the rat turned left. The term $\binom {n}{k}$ is the binomial coefficient.
-
 \textbf{The Poisson distribution} is a 'point-process', meaning that it determines the number of discrete 'point', or binary, events that happen within a fixed space or time, allowing for the occurrence of a potentially infinite number of events. The Poisson distribution is specified by a single parameter $\lambda$ that encapsulates the mean number of events that can occur in a single time or space interval.
 The formula for a Poisson distribution is: 
 \begin{equation}
