@@ -1,6 +1,6 @@
-# Latex Code for Neuromatch Dynamical Systems Summary Sheets
+# Latex Code for Neuromatch Mathematics Refresher Summary Sheets
 
-This repository contains the latex code to generate the Dynamical Systems Summary Sheets for [Neuromatch Academy Computational Neuroscience Summer School 2022](https://compneuro.neuromatch.io/tutorials/intro.html)
+This repository contains the latex code to generate the Mathematics Refresher Summary Sheets for [Neuromatch Academy Computational Neuroscience Summer School 2022](https://compneuro.neuromatch.io/tutorials/intro.html)
 
 The code is divided by day:
 + Linear Algebra (W0D3)
